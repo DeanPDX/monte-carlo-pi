@@ -1,6 +1,6 @@
 # monte-carlo-pi
 
-A monte carlo simulation written in go that attempts to estimate [Pi](https://golang.org/pkg/math/#pkg-constants). Inspired by [this excellent blog post](https://ggcarvalho.dev/posts/montecarlo/). I'm using [ebiten](https://github.com/hajimehoshi/ebiten) to show the algorithm work visually. When run you will see this:
+A monte carlo simulation written in go that attempts to estimate [Pi](https://golang.org/pkg/math/#pkg-constants). Inspired by [this excellent blog post](https://ggcarvalho.dev/posts/montecarlo/). I'm using [Ebitengine](https://github.com/hajimehoshi/ebiten) to show the algorithm work visually. When you `go run main.go` you will see something like this:
 
 ![./.github/demo.gif](./.github/demo.gif)
 
