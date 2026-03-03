@@ -5,3 +5,14 @@ A monte carlo simulation written in go that attempts to estimate [Pi](https://go
 ![./.github/demo.gif](./.github/demo.gif)
 
 As you can see, this run achieved a result of 3.140872, which is off by only 0.000721. Due to the nature of monte carlo simulations, different runs will give you different results but I was consistently estimating Pi pretty accurately. Play with the constants at the top (make sure to keep width/height proportionate if you change them) and try running the test again.
+
+## Running the simulation
+
+Clone this repo, then:
+
+```sh
+# Download dependencies
+go mod tidy
+# Run the program
+go run .
+```
